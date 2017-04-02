@@ -99,6 +99,7 @@ class HTMLPurifier_CSSDefinition extends HTMLPurifier_Definition
             false
         );
         $this->info['color'] = new HTMLPurifier_AttrDef_CSS_Color();
+        $this->info['transform'] = new HTMLPurifier_AttrDef_CSS_Transform();
 
         $this->info['background-image'] = $uri_or_none;
         $this->info['background-repeat'] = new HTMLPurifier_AttrDef_Enum(
