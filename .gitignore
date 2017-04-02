@@ -11,6 +11,7 @@ smoketests/test-schema.html
 configdoc/*.html
 configdoc/configdoc.xml
 docs/doxygen*
+.phpintel
 *.phpt.diff
 *.phpt.exp
 *.phpt.log
