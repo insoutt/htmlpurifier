@@ -414,7 +414,9 @@ class HTMLPurifier_CSSDefinition extends HTMLPurifier_Definition
                 'table-column',
                 'table-cell',
                 'table-caption',
-                'none'
+                'none',
+                'flex',
+                'inline-flex'
             )
         );
         $this->info['visibility'] = new HTMLPurifier_AttrDef_Enum(
